@@ -1,0 +1,12 @@
+### user api
+
+### registration
+
+POST http://localhost:8000/api/v1/users
+Content-Type: application/json
+
+{
+    "name": "test",
+    "email": "@test",
+    "password": "test"
+}
